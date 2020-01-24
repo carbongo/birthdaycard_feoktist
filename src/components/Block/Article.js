@@ -4,7 +4,11 @@ export default () => {
     return (
         <>
             <article id="article1">
-                <p>Lorem ipsum sit amet dolor</p>
+                <p>Dear Feoktist,<br/>
+                    Wishing a happy and colorful birthday to the most amazing Graphic Designer around. May this special day in your life be filled with joy and happiness.</p>
+                <p>Best Regards,<br/>
+                    George An.
+                </p>
             </article>
             <style jsx>
                 {`
@@ -17,9 +21,12 @@ export default () => {
                     p {
                         font-size: 3vw;
                         width: 80vw;
+                        margin-bottom: 5vw;
                         margin-left: 10vw;
-                        font-family: ‘Maven Pro’, sans-serif;
+                        font-family: 'Maven Pro', sans-serif;
+                        line-height: 150%;
                         color: rgb(77, 77, 77);
+                        text-align: justify;
                     }
                     @media (max-width: 767px) {
                         p {

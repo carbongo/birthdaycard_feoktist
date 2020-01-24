@@ -43,15 +43,16 @@ export default () => {
                         right: 0;
                     }
                     h1 {
-                        margin-top: 2vw;
-                        font-family: 'Maven Pro', sans-serif;
+                        margin-top: 5vw;
+                        font-family: sans-serif;
                         text-transform: uppercase;
                         position: absolute;
-                        font-size: 15vw;
+                        font-size: 14vw;
                         line-height: 102%;
-                        margin-left: 3vw;
-                        font-weight: 100;
-                        mix-blend-mode: plus-darker;
+                        margin-left: 10vw;
+                        font-weight: 700;
+                        mix-blend-mode: multiply;
+                        
                         color: rgba(77, 77, 77, 1);
                     }
                     #scroll-parallax {
