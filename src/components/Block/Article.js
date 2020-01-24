@@ -25,7 +25,7 @@ export default () => {
                         margin-left: 10vw;
                         font-family: 'Maven Pro', sans-serif;
                         line-height: 150%;
-                        color: rgb(77, 77, 77);
+                        color: #d6640d;
                         text-align: justify;
                     }
                     @media (max-width: 767px) {

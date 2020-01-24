@@ -11,6 +11,9 @@ export default () => {
                     margin: 0;
                     padding: 0;
                 }
+                body {
+                    overflow-x: hidden;
+                }
                 @font-face {
                     font-family: 'Maven Pro';
                     font-style: normal;

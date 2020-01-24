@@ -51,9 +51,8 @@ export default () => {
                         line-height: 102%;
                         margin-left: 10vw;
                         font-weight: 700;
-                        mix-blend-mode: multiply;
-                        
-                        color: rgba(77, 77, 77, 1);
+                        mix-blend-mode: difference;
+                        color: rgb(0, 98, 181);
                     }
                     #scroll-parallax {
                         position: absolute;
