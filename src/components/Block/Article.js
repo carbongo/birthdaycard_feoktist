@@ -5,7 +5,7 @@ export default () => {
         <>
             <article id="article1">
                 <p>Dear Feoktist,<br/>
-                    Wishing a happy and colorful birthday to the most amazing Graphic Designer around. May this special day in your life be filled with joy and happiness.</p>
+                    Wishing a happy and colorful birthday to the most amazing Graphic Designer around. May this special day in your life be filled with joy and happiness and may all your wishes to come true!</p>
                 <p>Best Regards,<br/>
                     George An.
                 </p>
