@@ -7,7 +7,10 @@ export default () => {
         <Helmet title="Happy Birthday, Feo!"/>
         <style jsx global>
             {`
-                /* latin */
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
                 @font-face {
                     font-family: 'Maven Pro';
                     font-style: normal;

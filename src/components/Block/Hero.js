@@ -5,7 +5,6 @@ export default () => {
 
     useEffect(()=>{
         try {
-            if (document) {
                 window.addEventListener("scroll", function(){
                     parallax(); 
                 });
@@ -21,7 +20,6 @@ export default () => {
                     // move background image
                     scrollable.style.transform = coords;
                 }
-            }
         } catch(e) {}
     }, [])
 
@@ -37,29 +35,27 @@ export default () => {
                         height: 100vw;
                         text-align: left;
                     }
-                    #hero * {
+                    img {
+                        width: 100vw;
                         position: absolute;
                         margin: 0 auto;
                         left: 0;
                         right: 0;
                     }
-                    img {
-                        width: 100vw;
-                        position: absolute;
-                    }
                     h1 {
-                        width: 100vw;
+                        margin-top: 2vw;
                         font-family: 'Maven Pro', sans-serif;
                         text-transform: uppercase;
                         position: absolute;
                         font-size: 15vw;
                         line-height: 102%;
-                        margin: 0 auto;
-                        left: 0;
-                        right: 0;
+                        margin-left: 3vw;
                         font-weight: 100;
-                        fill: antiquewhite;
-                        color: rgba(0,0,0,0.2);
+                        mix-blend-mode: plus-darker;
+                        color: rgba(77, 77, 77, 1);
+                    }
+                    #scroll-parallax {
+                        position: absolute;
                     }
                 `}
                 </style>
