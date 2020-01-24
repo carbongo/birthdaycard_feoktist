@@ -27,7 +27,7 @@ export default () => {
         <>
             <section id="hero">
                 <Picture id="scroll-parallax" src="feo.jpg" webp="feo.webp" alt="Photo by @ushnisky_dima"/>
-                <h1>Happy<br/> Birthday<span style={{display: 'none'}}>,</span> <br/>Feo</h1>
+                <h1>Happy<br/> Birthday<span style={{opacity: '0'}}>,</span> <br/>Feo <br/><span style={{opacity: '0.05', fontSize: '16px'}}>Photo by @ushnisky_dima</span></h1>
                 <style jsx>
                 {`
                     #hero {
